@@ -3,6 +3,7 @@ import creationalPattern.builder.BuilderUsage;
 import creationalPattern.factory.FactoryUsage;
 import creationalPattern.prototype.PrototypeUsage;
 import creationalPattern.singleton.SingletonUsage;
+import structuralPattern.composite.CompositeUsage;
 import structuralPattern.decorator.DecoratorUsage;
 
 public class Main {
@@ -19,6 +20,8 @@ public class Main {
             AbstractFactoryUsage.main();
         separator();
             DecoratorUsage.main();
+        separator();
+            CompositeUsage.main();
         separator();
     }
 
