@@ -3,6 +3,7 @@ import creationalPattern.builder.BuilderUsage;
 import creationalPattern.factory.FactoryUsage;
 import creationalPattern.prototype.PrototypeUsage;
 import creationalPattern.singleton.SingletonUsage;
+import structuralPattern.decorator.DecoratorUsage;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,6 +17,8 @@ public class Main {
             PrototypeUsage.main();
         separator();
             AbstractFactoryUsage.main();
+        separator();
+            DecoratorUsage.main();
         separator();
     }
 
