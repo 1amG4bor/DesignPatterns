@@ -1,4 +1,6 @@
-package creationalPattern.factory;
+package creationalPattern.factory.model;
+
+import creationalPattern.factory.Polygon;
 
 public class Square implements Polygon {
     @Override

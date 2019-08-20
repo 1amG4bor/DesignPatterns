@@ -1,5 +1,9 @@
 package creationalPattern.factory;
 
+import creationalPattern.factory.model.Circle;
+import creationalPattern.factory.model.Square;
+import creationalPattern.factory.model.Triangle;
+
 public class PolygonFactory {
 
     public PolygonFactory() {
