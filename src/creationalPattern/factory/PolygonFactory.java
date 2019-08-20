@@ -10,6 +10,7 @@ public class PolygonFactory {
     }
 
     public Polygon getPolygon(int numberOfSides) {
+        System.out.println("\tcreate " + numberOfSides + " side(s) polygon..");
         switch (numberOfSides) {
             case 1:
                 return new Circle();

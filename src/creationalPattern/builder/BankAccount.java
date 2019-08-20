@@ -29,16 +29,19 @@ public class BankAccount {
         }
 
         public Builder withName(String name) {
+            System.out.println("\tadd name..");
             this.name = name;
             return this;
         }
 
         public Builder withAccountNumber(String accountNumber) {
+            System.out.println("\tadd accountNumber..");
             this.accountNumber = accountNumber;
             return this;
         }
 
         public Builder withBalance(double balance) {
+            System.out.println("\tadd balance..");
             this.balance = balance;
             return this;
         }
