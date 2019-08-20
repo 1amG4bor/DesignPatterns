@@ -1,3 +1,4 @@
+import creationalPattern.abstractFactory.AbstractFactoryUsage;
 import creationalPattern.builder.BuilderUsage;
 import creationalPattern.factory.FactoryUsage;
 import creationalPattern.prototype.PrototypeUsage;
@@ -13,6 +14,8 @@ public class Main {
             FactoryUsage.main();
         separator();
             PrototypeUsage.main();
+        separator();
+            AbstractFactoryUsage.main();
         separator();
     }
 
